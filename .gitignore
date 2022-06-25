@@ -13,6 +13,18 @@ bin-release/
 *.ipa
 *.apk
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+
+# Logs and Databases
+*.log
+
+# test directory
+test
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Customized Makefile/project overrides
+GNUmakefile
+makefile
+user.props
